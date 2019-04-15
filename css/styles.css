@@ -96,6 +96,28 @@ body {
   to {left: 500px;}
 }
 
+
+
+.foto{
+
+/*animation*/
+
+  position: relative;
+/*  -webkit-animation: mymove 3s infinite;*/ 
+  animation: foto 4s infinite;
+ animation-direction: alternate;
+animation-timing-function: ease-in-out;
+
+}
+
+@keyframes foto {
+  from {left: 0px;}
+  to {left: 900px;}
+}
+
+
+
+
 a {
   color: #EF233C;
 }
@@ -141,6 +163,18 @@ footer {
 
 #copyright {
   text-align: center;
+}
+
+
+/*projects*/
+
+.list {
+ 
+  list-style-type:none;
+  margin: 20px;
+  padding: 50px;
+  
+    display: inline;
 }
 
 
