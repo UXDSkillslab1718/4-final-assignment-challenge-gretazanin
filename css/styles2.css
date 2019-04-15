@@ -2,6 +2,7 @@
 
 .contact {
 	width: 540px;
+
 }
 
 .contact label {
@@ -32,6 +33,7 @@
 	padding: 20px;
 	font-size: 18px;
 	padding-top: 5px;
+
 }
 
 #name {
@@ -42,3 +44,8 @@
 	height: 50px;
 }
 
+.social {
+	  list-style-type:none;
+	  display: inline;
+	  float: left;
+}
